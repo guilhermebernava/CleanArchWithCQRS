@@ -14,9 +14,7 @@ public class MemberCreatedSMSHandler : INotificationHandler<MemberCreatedNotific
     public Task Handle(MemberCreatedNotification notification, CancellationToken cancellationToken)
     {
         _logger.LogInformation($"Confirmation sms sent for : {notification.Member.FirstName}");
-
         //logica para enviar SMS
-
         return Task.CompletedTask;
     }
 }

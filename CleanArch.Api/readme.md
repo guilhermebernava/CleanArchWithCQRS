@@ -1,1 +1,0 @@
-utilizando CQRS, MediatR, UnityOfWork, CleanArch
